@@ -1,8 +1,6 @@
 # Union & Wage Analysis
 **Analyzing the relationship between unionization rates and occupational wages using BLS data**
-
 ---
-
 ## Overview
 
 This project investigates whether working in an occupation associated with strong unionization has a meaningful effect on wages. Using occupational employment and wage data from the U.S. Bureau of Labor Statistics (BLS), the analysis compares earnings across six occupations — three with historically high union representation and three with historically low union representation — across all U.S. states.
@@ -55,8 +53,6 @@ union-wage-analysis/
 │   ├── Registered Nurses.csv
 │   └── Teachers(secondary).csv
 ├── analysis.ipynb       # Main analysis notebook
-├── cleaning.py          # Data cleaning functions
-├── visualizations.py    # Chart generation
 └── README.md
 ```
 
@@ -133,10 +129,7 @@ cd union-wage-analysis
 pip install pandas matplotlib seaborn
 ```
 3. Run the file
-
-
 ## Dependencies
-
 | Library | Purpose |
 |---|---|
 | `pandas` | Data importing, cleaning, and manipulation |
@@ -146,7 +139,6 @@ pip install pandas matplotlib seaborn
 ---
 
 ## Possible Improvements
-
 - Expand the dataset to include more occupations for stronger statistical conclusions
 - Incorporate hourly wage data in addition to annual salary figures
 - Control for additional variables (education level, cost of living, industry sector)
@@ -155,7 +147,6 @@ pip install pandas matplotlib seaborn
 ---
 
 ## References
-
 - U.S. Bureau of Labor Statistics. (n.d.). *Occupational Employment and Wage Statistics (OEWS) data.* U.S. Department of Labor. https://data.bls.gov/oes/#/home
 - McKinney, W. (2017). *Python for Data Analysis: Data Wrangling with pandas, NumPy, and IPython* (2nd ed.). O'Reilly Media.
 - Stack Overflow. https://stackoverflow.com
