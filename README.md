@@ -128,18 +128,12 @@ Six charts were produced to compare high and low unionhood occupations:
 git clone https://github.com/your-username/union-wage-analysis.git
 cd union-wage-analysis
 ```
-
 2. Install dependencies:
 ```bash
 pip install pandas matplotlib seaborn
 ```
+3. Run the file
 
-3. Open the notebook:
-```bash
-jupyter notebook analysis.ipynb
-```
-
----
 
 ## Dependencies
 
